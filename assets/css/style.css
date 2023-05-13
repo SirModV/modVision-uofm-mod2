@@ -1,32 +1,165 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding:(0);
+    padding: 0;
+  }
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-
 header {
-    background-color: black;
+    top:0;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgba(2, 2, 2, 0.465);  
+    position: sticky;
 }
-
 header h1 {
-    font-family: Helvetica, Arial, Helvetica, sans-serif ;
-    color: whitesmoke;
-    padding: 25px 15px;
+    font-size: 55px;
+    margin: 0;
+    font-family: Helvetica, Arial, Helvetica, sans-serif ;    
+}
+header a{
+    text-decoration: line-through; 
+    color: rgb(207, 201, 220);
+
+}
+nav {
+    background-color: red; 
+    display: flex;
+    flex-wrap: wrap;
+}
+nav ul{
+    display:flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+nav a {
+    color: white;
+    text-decoration: none; 
 }
 
-nav a {
-    color: gold;
+h3 {
+    margin: 50px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
+.main-wrapper{
     display: flex;
-    background-color: black;
-    position: fixed;
-    padding: 25px, 60px;
-    top: 0;
-    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.sidebar {
+    display: flex;
+    flex-wrap: wrap;
+
+    overflow: hidden;
+}
+
+.sidebar img {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+}
+
+
+.main-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+
+
+.sidebar {
+    display: flex;
+    flex-wrap: wrap;  
+    width: 200px;
+}
+
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.
+
+
+
+.rightgrid3 {
+    width:100%;
+    display: flex;
+}
+
+
+.sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+}
+
+.sidebar img{
+    display: flex;
+    width: 50%;
+}
+.info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+*/
+
+
+
+
+
+footer {
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
