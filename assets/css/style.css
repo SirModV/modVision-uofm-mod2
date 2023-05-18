@@ -1,161 +1,59 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+body {
+    overflow: hideen;
+    height: 100vh;
   }
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
-header {
-    top:0;
+  
+  main {
+    overflow-y: auto;
+    margin: 25px;
+  }
+  
+  p {
+    margin: 80px;
+  }
+  aside {
+    flex: 1 0 10%;
+  }
+  
+  .contentwrapper {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: rgba(2, 2, 2, 0.465);  
+    height: 100%;
+  }
+  
+  header {
+    top: 0;
+    background-color: rgb(2, 2, 2);
     position: sticky;
-}
-header h1 {
+    display: flex;
+  }
+  
+  header h1 {
     font-size: 55px;
     margin: 0;
-    font-family: Helvetica, Arial, Helvetica, sans-serif ;    
-}
-header a{
-    text-decoration: line-through; 
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  header a {
+    text-decoration: line-through;
     color: rgb(207, 201, 220);
-
-}
-nav {
-    background-color: red; 
-    display: flex;
-    flex-wrap: wrap;
-}
-nav ul{
-    display:flex;
-    flex-wrap: wrap;
+  }
+  nav {
+    background-color: red;
+  }
+  nav ul {
     list-style: none;
-}
-nav a {
+  }
+  nav a {
     color: white;
-    text-decoration: none; 
-}
-
-h3 {
+    text-decoration: none;
+  }
+  
+  h3 {
     margin: 50px;
-}
-
-.main-wrapper {
-    display: flex;
-    
-    width: 100%;
-}
-
-.sidebar {
-    display: flex;
-    flex-wrap: wrap;
-    width: 30%;
-    overflow: hidden;
-    border: 3px;
-}
-
-.info {
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-    border: 3px;
-}
-
-
-
-
-/*
-
-
-.sidebar img {
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
-
-
-
-.main-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100px;
-    justify-content: center;
-    align-items: flex-start;
-    
-}
-
-
-
-.sidebar {
-    display: flex;
-    flex-wrap: wrap;  
-    width: 200px;
-}
-
-
-.info {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
-}
-.
-
-
-
-.rightgrid3 {
-    width:100%;
-    display: flex;
-}
-
-
-.sidebar {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: start;
-}
-
-.sidebar img{
-    display: flex;
-    width: 50%;
-}
-.info {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-
-
-
-
-
-
-
-
-*/
-
-
-
-
-
-footer {
-    background-color: blue;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-
-
-
-
-
-
-
-
-
+  }
+  
+  @media (max-width: 500px) {
+    .contentwrapper {
+      flex-direction: column;
+    }
+  }
+  
